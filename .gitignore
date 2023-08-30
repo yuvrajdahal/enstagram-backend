@@ -1,5 +1,5 @@
 src/configs/.env
-src/configs/logs/error.log
+src/configs/logs/*
 
 /*/.env
 /*/error.log

@@ -1,7 +1,0 @@
-{
-  error: 'user.addJsonWebToken is not a function',
-  level: 'error',
-  message: '500 - user.addJsonWebToken is not a function - /api/v1/auth - POST - ::ffff:192.168.10.2',
-  timestamp: '2023-08-17T13:40:04.076Z',
-  label: 'Error'
-}
