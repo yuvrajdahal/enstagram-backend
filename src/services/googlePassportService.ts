@@ -23,7 +23,6 @@ passport.use(
           user = new User({
             googleId: profile.id,
             email: email,
-            // You can extract and save other relevant user data from the profile
           });
           await user.save();
         }
