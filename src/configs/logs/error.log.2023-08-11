@@ -1,0 +1,7 @@
+{
+  error: 'Id token must be provided Email must be provided',
+  level: 'error',
+  message: '500 - User validation failed: idToken: Id token must be provided, email: Email must be provided - /api/v1/auth - GET - ::1',
+  timestamp: '2023-08-11T13:05:02.940Z',
+  label: 'Error'
+}

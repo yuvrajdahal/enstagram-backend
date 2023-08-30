@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/dahal/development/instagram-backend/src/configs/logs/.d819e4fdece4f6dc8347a62860fe13d2762ca0a6-audit.json",
+    "files": [
+        {
+            "date": 1691757325162,
+            "name": "/home/dahal/development/instagram-backend/src/configs/logs/error.log.2023-08-11",
+            "hash": "945c0557230b6a6cc973f611d16f140c6ac6e7a12532812261bf0cf6426b6071"
+        },
+        {
+            "date": 1691897541310,
+            "name": "/home/dahal/development/instagram-backend/src/configs/logs/error.log.2023-08-13",
+            "hash": "07ec7305a921fba794ab4033dd848bd95add4ce877ec5a21e3089fa3c4e6592a"
+        },
+        {
+            "date": 1692256551839,
+            "name": "/home/dahal/development/instagram-backend/src/configs/logs/error.log.2023-08-17",
+            "hash": "ff86f72ce5c4111f24a17186886671cbb070c9c755263c381e2efb49d064d406"
+        },
+        {
+            "date": 1692343640248,
+            "name": "/home/dahal/development/instagram-backend/src/configs/logs/error.log.2023-08-18",
+            "hash": "f3ceb7f7faf743817d643c48319d8fa9fbfba356f11ae1dd86dffee25b50b6c8"
+        }
+    ],
+    "hashType": "sha256"
+}
