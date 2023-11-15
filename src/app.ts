@@ -49,16 +49,9 @@ app.use(
 
 app.use("/api/v1/auth", googleAuthRouter);
 app.use("/api/v1/users", userRouter);
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.resolve("../", "app", "dist")));
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve("../", "app", "dist", "index.html"));
-  });
-} else {
-  app.get("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Api is running");
-  });
-}
+});
 
 app.use(globalError);
 
