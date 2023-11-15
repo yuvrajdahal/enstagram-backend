@@ -21,16 +21,15 @@ export const authController = asyncHandler(async (req, res) => {
   } = req.body;
 
   const decodedToken = jwt.decode(token);
-
   const existingUser = await User.findOne({
-    email,
+    email
   });
   if (existingUser) {
     sendTokenResponse(existingUser, 200, res);
     return;
   }
   const user = await User.create({
-    idToken: token,
+    googleId:token,
     email,
     profilePicture,
     followers,
